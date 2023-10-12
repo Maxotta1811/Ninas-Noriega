@@ -8,21 +8,21 @@ function MyCarousel() {
     <Carousel>
       <Carousel.Item style={{ width: '100%', height: '100vh' }}>
         <img
-          className="d-block w-100"
+          className="imgcarousel"
           src={Carrusel1}
           alt="Primer slide"
         />
       </Carousel.Item>
       <Carousel.Item style={{ width: '100%', height: '100vh' }}>
         <img
-          className="d-block w-100"
+          className="imgcarousel"
           src={Carrusel2}
           alt="Segundo slide"
         />
       </Carousel.Item>
       <Carousel.Item style={{ width: '100%', height: '100vh' }}>
         <img
-          className="d-block w-100"
+          className="imgcarousel"
           src={Carrusel3}
           alt="Tercer slide"
         />
