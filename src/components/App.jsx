@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div>Niñas Noriega</div>
+      <div>AAA</div>
       <Carrousel/>
     </>
   )
