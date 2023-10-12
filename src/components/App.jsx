@@ -1,5 +1,7 @@
 import '../styles/App.css'
-import Carrousel from './Carrousel'
+import MyCarousel from './Carrousel'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -7,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Carrousel/>
+      <MyCarousel/>
     </>
   )
 }
