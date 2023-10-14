@@ -1,0 +1,15 @@
+.header-container {
+    margin: 0;
+    height: 250px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.brand-logo img {
+    max-width: 100%; /* Limita el ancho de la imagen al 100% del contenedor */
+    max-height: 200px; /* Ajusta la altura máxima según tus necesidades */
+    display: block; /* Asegura que la imagen se comporte correctamente */
+    margin: 0 auto; /* Centra horizontalmente la imagen dentro del contenedor */
+  }
