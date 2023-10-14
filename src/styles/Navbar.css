@@ -1,0 +1,64 @@
+.navbar {
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.logo {
+  color: #333;
+  font-size: 24px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hamburger-menu {
+  display: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-links.active {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Define media queries for responsiveness */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
+
+
+  
