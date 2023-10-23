@@ -1,0 +1,47 @@
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    height: 350px;
+    margin-top: 7%;
+  }
+  
+  .footer-section {
+    flex: 1;
+    text-align: left;
+    margin-left: 4%;
+    color: white;
+    margin-top: 5%;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .footer-section p {
+    font-size: 15px;
+    color: white;
+  }
+  
+  .imgredes{
+    width: 80px;
+    height: 80px;
+  }
+
+  .link{
+      text-decoration: none; 
+      color: inherit; /* Hereda el color del texto del elemento padre */
+  }
+
+  .redes{
+      display: flex;
+      gap: 5px; /* Espacio entre las imágenes (ajusta según sea necesario) */
+      margin-right:300px;
+  }
+
+

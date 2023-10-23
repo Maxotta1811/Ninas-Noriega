@@ -1,0 +1,14 @@
+.product-item {
+    padding-bottom: 50px;
+}
+
+.product-item img{
+    height: 400px;
+    margin: auto;
+    margin-top: 40%;
+}
+
+.product-item h2{
+    font-size: 15px;
+    color: rgb(244, 47, 47);
+}

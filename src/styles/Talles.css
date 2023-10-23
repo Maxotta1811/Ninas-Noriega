@@ -1,0 +1,13 @@
+.imgtabla{
+    width: 70%;
+    height: 900px;
+  
+
+}
+
+.divtabla{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    margin-top: 5%;
+}
