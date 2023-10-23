@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../styles/Galeria.css'
 
 const Galeria = () => {
@@ -6,7 +6,7 @@ const Galeria = () => {
 
         <div className='divgaleria'  id='shop'>
 
-            <h1 className='tit'>WELCOME TO CUPID'S LOVE HOUSE</h1>
+            <h1 className='tit'>BIENVENIDOS A NIÑAS NORIEGA</h1>
 
             <img src="src\images\Galeria\pijama.jpg" alt="" className='imggaleria' />
             <a href="/Pijamas">

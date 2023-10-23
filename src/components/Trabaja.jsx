@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../styles/Trabaja.css'
 
 const Trabaja = () => {

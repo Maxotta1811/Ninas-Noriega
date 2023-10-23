@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../styles/Talles.css'
 
 const Talles = () => {
