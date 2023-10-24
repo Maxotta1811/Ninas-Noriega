@@ -7,7 +7,7 @@ import Nosotros from './Nosotros'
 import Talles from './Talles'
 import Trabaja from './Trabaja'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Batas from './Batas'
 import Pijamas from './Pijamas'
 import Ajuares from './Ajuares'
