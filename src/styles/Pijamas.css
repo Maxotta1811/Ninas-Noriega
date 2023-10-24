@@ -1,14 +1,24 @@
 .product-item {
     padding-bottom: 50px;
+    margin-left: 5%;
 }
 
 .product-item img{
     height: 400px;
+    width: 95%;
     margin: auto;
-    margin-top: 40%;
+    margin-top: 30%;
+    margin-left: 3%;
 }
 
 .product-item h2{
-    font-size: 15px;
-    color: rgb(244, 47, 47);
+    font-size: 12px;
+    color: rgb(37, 36, 36);
 }
+
+h5{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+

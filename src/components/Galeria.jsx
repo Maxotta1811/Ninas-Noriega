@@ -4,36 +4,40 @@ import '../styles/Galeria.css'
 const Galeria = () => {
     return (
 
-        <div className='divgaleria'  id='shop'>
+        <div className='divgaleria' id='shop'>
 
-            <h1 className='tit'>BIENVENIDOS A NIÑAS NORIEGA</h1>
+            <h1 className='tit'>WELCOME TO NIÑAS NORIEGA</h1>
+            <h4 className='tit2' >Explore our Successes</h4>
 
-            <img src="src\images\Galeria\pijama.jpg" alt="" className='imggaleria' />
             <a href="/Pijamas">
+                <img src="src\images\Galeria\pijama.jpg" alt="" className='imggaleria' />
+
                 <p className='buttonimg1'>PIJAMAS</p>
-                
+
             </a>
-          
-            
 
 
-            <img src="src\images\Galeria\bata.jpg" alt="" className='imggaleria' />
+
+
             <a href="/Batas">
-                <p className='buttonimg2'>BATAS</p>
-                
-            </a>
-          
+                <img src="src\images\Galeria\bata.jpg" alt="" className='imggaleria' />
 
-            <img src="src\images\Galeria\ajuar.jpg" alt="" className='imggaleria' />
-            <a href="/Ajuares">
-                <p className='buttonimg3'>AJUAR</p>
-                
+                <p className='buttonimg2'>BATAS</p>
+
             </a>
-          
+
+
+
+            <a href="/Ajuares">
+                <img src="src\images\Galeria\ajuar.jpg" alt="" className='imggaleria' />
+                <p className='buttonimg3'>AJUAR</p>
+
+            </a>
+
 
         </div>
 
-      
+
     )
 }
 

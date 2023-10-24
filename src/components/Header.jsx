@@ -8,7 +8,7 @@ function Header(){
         <div className="header-container">
             <Slider/>
             <div className="brand-logo">
-                <img src={logo} alt="Ninas Noriega" />
+               <a href="/"><img src={logo} alt="Ninas Noriega" /></a> 
             </div>
             <Navbar/>
         </div>
