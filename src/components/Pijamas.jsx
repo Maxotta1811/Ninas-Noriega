@@ -1,94 +1,133 @@
 
 import { Container, Row, Col } from 'react-bootstrap';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import '../styles/Pijamas.css'
 
 const  Pijamas = () => {
   const products = [
     {
-      name: 'Pantalon Snaps',
-      price: '$29.990',
-      description: '6 cuotas sin interes de $4.998,33',
-      talle: "Talle: S, M, L, XL",
-      image: '../src/images/Galeria/bata.jpg',
+      name: 'Adelma',
+      price: '$',
+      description: 'Musculosa con detalle de tul bordado y short con puntilla',
+      talle: "Talle: S, M, L, XL, XXL",
+      images: ['src/images/tienda/Pijamas/Adelma1.jpg',
+              'src/images/tienda/Pijamas/Adelma2.jpg'
+    ]
+
     },
     {
-      name: 'Carpeter Black Pant',
+      name: 'Antonia',
       price: '$26.990',
-      description: '6 cuotas sin interes de $4.498,33',
+      description: 'Musculosa con detalle de tul bordado y short con puntilla',
       talle: "Talle: S, M, L, XL",
-      image: '../src/Imagenes/pantalon2.jpg',
+      images: ['src/images/tienda/Pijamas/Antonia.jpg',
+      'src/images/tienda/Pijamas/Antonia1.jpg'
+    ]
     },
     {
-      name: 'Pantalón Skate Cargo',
+      name: 'Bernardita',
       price: '$29.990',
-      description: '6 cuotas sin interés de $4.998,33',
+      description: 'Remera con vuelos y short con puntilla',
       talle: "Talle: S, M, L, XL",
-      image: '../src/Imagenes/pantalon3.jpg',
+      images: ['src/images/tienda/Pijamas/Bernardita1.jpg',
+              'src/images/tienda/Pijamas/Bernardita2.jpg'
+            ]
     },
     {
-        name: 'Carpenter Pant Off White',
+        name: 'Faustina',
         price: '$26.990',
-        description: '6 cuotas sin interés de $4.498,33',
+        description: 'Top con srunchie y short tiro alto con vuelos',
         talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon4.jpg',
+        images: ['src/images/tienda/Pijamas/Faustina1.jpg',
+                'src/images/tienda/Pijamas/Faustina2.jpg'
+              ]
+       
       },
       {
-        name: 'Jogg Over Black',
+        name: 'Horten',
         price: '$28.990',
-        description: '6 cuotas sin interés de $4.831,67',
+        description: 'Musculosa con vuelos y breteles regulables, Short con vuelos ',
         talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon5.jpg',
+        images: ['src/images/tienda/Pijamas/Horten1.jpg',
+        'src/images/tienda/Pijamas/Horten2.jpg'
+      ]
+        
       },
       {
-        name: 'Pantalon Essential Patagonia',
+        name: 'Ines',
         price: '$17.990',
-        description: '6 cuotas sin interés de $2.998,33',
+        description: 'Musculosa con breteles regulables y short con puntillas',
         talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon6.jpg',
+        images: ['src/images/tienda/Pijamas/Ines1.jpg',
+        'src/images/tienda/Pijamas/Ines2.jpg']
+        
       },
       {
-        name: 'Jogg Over Grey',
+        name: 'Isolina',
         price: '$28.990',
-        description: '6 cuotas sin interés de $4.831,67',
+        description: 'Musculosa con breteles regulables y vuelo. Short con puntilla',
         talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon7.jpg',
+        images: ['src/images/tienda/Pijamas/Isolina1.jpg',
+        'src/images/tienda/Pijamas/Isolina2.jpg']
+        
       },
       {
-        name: 'Pantalon BW Straight',
+        name: 'Merci',
         price: '$24.990',
-        description: '6 cuotas sin interés de $4.165',
+        description: 'Musculosa con detalle de puntillas y vuelo. Short tiro alto',
         talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon8.jpg',
+        images: ['src/images/tienda/Pijamas/Merci.jpg',
+      /*'src/images/tienda/Pijamas/Isolina2.jpg'*/]
+        
+      },
+      /*{
+        name: 'Horten',
+        price: '$28.990',
+        description: 'Musculosa con vuelos y breteles regulables, Short con vuelos ',
+        talle: "Talle: S, M, L, XL",
+        images: [ '../images/tienda/Pijamas/Horten1.jpg',
+        'src/images/tienda/Pijamas/Horten2.jpg']
+        
       },
       {
-        name: 'Jeans KOTK Blue',
-        price: '$27.990',
-        description: '6 cuotas sin interés de $4.665',
-        talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon9.jpg',
-      },
-      {
-        name: 'Jeans KOTK Black',
-        price: '$27.990',
-        description: '6 cuotas sin interés de $4.665',
-        talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon10.jpg',
-      },
-      {
-        name: 'Pantalon Basketball',
+        name: 'Ines',
         price: '$17.990',
-        description: '6 cuotas sin interés de $2.998,33',
+        description: 'Musculosa con breteles regulables y short con puntillas',
         talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon11.jpg',
+        images: ['../images/tienda/Pijamas/Ines1.jpg',
+        'src/images/tienda/Pijamas/Ines2.jpg']
+        
       },
       {
-        name: 'Pantalon Essential Black',
-        price: '$26.990',
-        description: '6 cuotas sin interés de $4.498,33',
+        name: 'Isolina',
+        price: '$28.990',
+        description: 'Musculosa con breteles regulables y vuelo. Short con puntilla',
         talle: "Talle: S, M, L, XL",
-        image: '../src/Imagenes/pantalon12.jpg',
+        images: ['../images/tienda/Pijamas/Isolina1.jpg',
+        'src/images/tienda/Pijamas/Isolina2.jpg']
+        
       },
+      {
+        name: 'Merci',
+        price: '$24.990',
+        description: 'Musculosa con detalle de puntillas y vuelo. Short tiro alto',
+        talle: "Talle: S, M, L, XL",
+        images: ['../images/tienda/Pijamas/Merci.jpg',
+        'src/images/tienda/Pijamas/Isolina2.jpg']
+        
+      },*/
   ];
+
+  const sliderSettings = {
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: true,
+  };
 
   return (
     <section className="gallery-section" >
@@ -98,7 +137,14 @@ const  Pijamas = () => {
           {products.map((product, index) => (
             <Col md={4} key={index}>
               <div className="product-item">
-                <img src={product.image} alt={product.name} />
+              <Slider {...sliderSettings}>
+                {product.images.map((image, imageIndex) => (
+                  <div key={imageIndex}>
+                    <img src={image} alt={`${product.name} - Image ${imageIndex + 1}`} />
+                  </div>
+                  ))}
+              </Slider>
+                
                 <h3>{product.name}</h3>
                 <p>{product.price}</p>
                 <p>{product.talle}</p>

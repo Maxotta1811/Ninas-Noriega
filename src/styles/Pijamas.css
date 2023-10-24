@@ -1,14 +1,45 @@
+/* Ajusta el contenedor de cada producto */
 .product-item {
+  padding-bottom: 50px;
+}
+
+/* Ajusta el estilo de las imágenes dentro del carrusel */
+.product-item .slick-slider {
+  position: relative;
+  top: 0;
+  text-align: center; /* Centra el carrusel horizontalmente */
+}
+
+.product-item .slick-slide {
+  padding: 10px; /* Agrega espacio entre las imágenes del carrusel */
+}
+
+.product-item .slick-slide img {
+  max-width: 100%;  
+  max-height: 400px; /* Altura de las imágenes en el carrusel */
+  margin: 0 auto; /* Centra las imágenes horizontalmente */
+  display: block; /* Asegura que las imágenes estén alineadas en el centro */
+}
+
+/*.product-item h2 {
+  font-size: 15px;
+  color: rgb(244, 47, 47);
+}
+
+  .product-item {
     padding-bottom: 50px;
 }
 
 .product-item img{
-    height: 400px;
+    max-width: 100%;
+    max-height: 400px;
     margin: auto;
-    margin-top: 40%;
+    /*margin-top: 40%;
+    display: block;
 }
 
 .product-item h2{
     font-size: 15px;
     color: rgb(244, 47, 47);
 }
+  
