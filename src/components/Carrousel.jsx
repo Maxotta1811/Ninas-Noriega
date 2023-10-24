@@ -5,29 +5,31 @@ import Carrusel3 from '../images/carrusel/Carrusel3.jpg'
 import'../styles/Carousel.css'
 function MyCarousel() {
   return (
+    
     <Carousel>
       <Carousel.Item className="carousel-item">
-        <img
+       <a href="/Legado"><img
           className="imgcarousel"
           src={Carrusel1}
           alt="Primer slide"
-        />
+        /></a> 
       </Carousel.Item>
       <Carousel.Item className="carousel-item">
-        <img
+       <a href="/Legado"> <img
           className="imgcarousel"
           src={Carrusel2}
           alt="Segundo slide"
-        />
+        /> </a>
       </Carousel.Item>
       <Carousel.Item className="carousel-item">
-        <img
+        <a href="/Legado"><img
           className="imgcarousel"
           src={Carrusel3}
           alt="Tercer slide"
-        />
+        /> </a>
       </Carousel.Item>
     </Carousel>
+    
   );
 }
 

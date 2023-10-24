@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Batas from './Batas'
 import Pijamas from './Pijamas'
 import Ajuares from './Ajuares'
+import  CarouselLegado from './Legado'
 
 
 
@@ -108,6 +109,19 @@ const App = () => {
 <>  
 <Header/>
 <Trabaja/>
+<Footer/>
+
+</>
+
+     }
+     />
+
+     
+<Route path='/Legado'
+     element={
+<>  
+<Header/>
+<CarouselLegado/>
 <Footer/>
 
 </>

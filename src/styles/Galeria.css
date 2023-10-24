@@ -15,13 +15,19 @@
     font-size: 20px;
     text-align: center;
 }
+.tit2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+}
 
 .imggaleria{
-    width: 27%;
-    height: 77%;
+    width: 25%;
+    height: 75%;
     display: inline-block;
-    margin: 20px;
-    margin-left: 3%;
+    margin: 19px;
+    margin-left: 5%;
     transition: transform 0.3s ease;
 }
 
@@ -32,7 +38,7 @@
 .buttonimg1{
     position: absolute;
     top: 245%;
-    left: 7%;
+    left: 9%;
     color: rgb(255, 255, 255);
     font-size: 30px;
     background-color: transparent;
@@ -46,7 +52,7 @@
 .buttonimg2{
     position: absolute;
     top: 245%;
-    left: 38%;
+    left: 40%;
     color: rgb(255, 255, 255);
     width: 100px;
     height: 35px;
@@ -58,7 +64,7 @@
 .buttonimg3{
     position: absolute;
     top: 245%;
-    left: 68%;
+    left: 70%;
     color: rgb(255, 255, 255);
     width: 100px;
     height: 35px;

@@ -8,13 +8,11 @@ function Nosotros() {
     
     return (
         <div className='divnosotros' >
-          <h1 className='titnosotros' >NOSOTROS</h1>
-            <p>Desde sus orígenes en Argentina en 2015, Ninas-Noriega se distinguió instantáneamente por crear diseños vanguardistas e innovadores. 
-              <br />  Hoy en día la marca impone tendencia y se ha convertido en sinónimo de tecnología, calidad y estilo.
-
-               <br /> Su directora creativa Josefina Navarro lidera un equipo especializado que se inspira en una mujer libre, natural, femenina y sexy. 
-              <br />  Crean cada colección dándole principal importancia a la originalidad de las piezas, los detalles, la innovación y la elección de materiales nobles. </p>
-            <img className='imgportada' src="src\images\Contenido\imgportada.jpg" alt="" />
+          <h1 className='titnosotros' >NIÑAS-NORIEGA</h1> <br />
+            <p>Niñas Noriega es un emprendimiento que inicié en el año 2013 debido a la pasión que me genera el diseño y la confección de indumentaria. <br />
+              Comencé con pequeños pedidos por encargo, diseñando vestidos casuales y de fiesta. Hoy en día, mi enfoque se dirige al diseño de pijamas y ajuares para novias. <br />
+              Es una marca destinada a mujeres románticas, femeninas y de espíritu libre, que adoran los detalles. </p>
+            <img className='imgportada' src="src\images\Contenido\imgnosotros.jpg" alt="" />
         </div> 
         
     );
