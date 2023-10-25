@@ -1,5 +1,7 @@
 import '../styles/App.css'
 import Header from './Header';
+import Navbar from './Navbar';
+import Separator from './Separator';
 import MyCarousel from './Carrousel'
 import Galeria from './Galeria'
 import Footer from './Footer'
@@ -27,6 +29,7 @@ const App = () => {
           <>
       
           <Header/>
+          <Navbar/>
           <MyCarousel/>
           <Galeria/>
           <Nosotros/>
@@ -42,6 +45,8 @@ const App = () => {
      element={
 <>  
 <Header/>
+<Navbar/>
+<Separator/>
 <Batas/>
 <Footer/>
 
@@ -56,6 +61,8 @@ const App = () => {
      element={
 <>  
 <Header/>
+<Navbar/>
+<Separator/>
 <Pijamas/>
 <Footer/>
 
@@ -69,6 +76,8 @@ const App = () => {
      element={
 <>  
 <Header/>
+<Navbar/>
+<Separator/>
 <Ajuares/>
 <Footer/>
 
@@ -83,6 +92,7 @@ const App = () => {
      element={
 <>  
 <Header/>
+<Navbar/>
 <Nosotros/>
 <Footer/>
 
@@ -95,6 +105,7 @@ const App = () => {
      element={
 <>  
 <Header/>
+<Navbar/>
 <Talles/>
 <Footer/>
 
@@ -108,6 +119,7 @@ const App = () => {
      element={
 <>  
 <Header/>
+<Navbar/>
 <Trabaja/>
 <Footer/>
 
@@ -121,6 +133,8 @@ const App = () => {
      element={
 <>  
 <Header/>
+<Navbar/>
+<Separator/>
 <CarouselLegado/>
 <Footer/>
 
