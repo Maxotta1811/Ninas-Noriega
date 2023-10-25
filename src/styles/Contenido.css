@@ -1,0 +1,16 @@
+.imgdamas{
+    width: 100vw;
+    height: 750px;
+    display: flex;
+}
+
+.divdamas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Opcional para centrar verticalmente en la ventana del navegador */
+    margin-top: 7%;
+  }
+  
+  
+  
