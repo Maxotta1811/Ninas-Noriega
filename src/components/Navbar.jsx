@@ -1,4 +1,30 @@
-import { useState } from 'react';
+
+import '../styles/Navbar.css';
+
+const Navbar = () => {
+    return (
+    <div className='navbar'>
+      <div className='nav-logo'>Niñas Noriega</div>
+      <div className='nav-items'>
+        <a href="/">Inicio</a>
+        <a href="/Ajuares">Ajuares</a>
+        <a href="/Batas">Batas</a>
+        <a href="/Pijamas">Pijamas</a>
+        <a href="https://wa.me/c/5493863697703">Contacto</a>
+      </div>
+      <div className='nav-toggle'>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+)
+}
+
+export default Navbar
+
+
+/*import { useState } from 'react';
 import '../styles/Navbar.css'
 
 function Navbar() {
@@ -35,4 +61,4 @@ function Navbar() {
 
 }
 
-export default Navbar;
+export default Navbar;*/

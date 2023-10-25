@@ -1,5 +1,5 @@
 .carousel-item {
-    margin-top: 75px;
+    margin: top 0;;
     width: 100vw; /* Establece el ancho al 90% de la ventana (viewport width) */
     height: 100vh; /* Establece la altura al 90% de la ventana (viewport height) */
     object-fit: cover; /* Usa 'contain' para asegurarte de que la imagen se vea completa sin recortes */
