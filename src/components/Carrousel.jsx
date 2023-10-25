@@ -7,23 +7,23 @@ function MyCarousel() {
   return (
     
     <Carousel>
-      <Carousel.Item className="carousel-item">
+      <Carousel.Item id="carousel-item">
        <a href="/Legado"><img
-          className="imgcarousel"
+          id="imgcarousel"
           src={Carrusel1}
           alt="Primer slide"
         /></a> 
       </Carousel.Item>
-      <Carousel.Item className="carousel-item">
+      <Carousel.Item id="carousel-item">
        <a href="/Legado"> <img
-          className="imgcarousel"
+          id="imgcarousel"
           src={Carrusel2}
           alt="Segundo slide"
         /> </a>
       </Carousel.Item>
-      <Carousel.Item className="carousel-item">
+      <Carousel.Item id="carousel-item">
         <a href="/Legado"><img
-          className="imgcarousel"
+          id="imgcarousel"
           src={Carrusel3}
           alt="Tercer slide"
         /> </a>

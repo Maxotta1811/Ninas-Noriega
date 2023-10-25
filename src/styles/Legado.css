@@ -1,4 +1,25 @@
-.legado-item {
+.carousel-item {
+    background-color: rgb(245, 245, 220);
+    margin: top ;;
+    max-width: 100%; /* Establece el ancho al 90% de la ventana (viewport width) */
+    max-height: 100vh; /* Establece la altura al 90% de la ventana (viewport height) */
+    object-fit: cover; /* Usa 'contain' para asegurarte de que la imagen se vea completa sin recortes */
+    text-align: center;
+  }
+
+  .imgcarousel {
+    max-width: 100%; /* Establece un ancho máximo del 100% del contenedor padre */
+    max-height: 100vh; /* Establece la altura al 100% de la ventana (viewport height) */
+    display: block; /* Elimina cualquier espacio adicional debajo de las imágenes */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+  }
+  
+  .separador {
+    margin: 20px;
+  }
+  
+
+/*.legado-item {
     padding-bottom: 50px;
     margin-left: 5%;
 }
@@ -28,4 +49,4 @@ h6{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
-}
+} */
