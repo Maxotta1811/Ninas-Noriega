@@ -134,7 +134,6 @@ const App = () => {
 <>  
 <Header/>
 <Navbar/>
-<Separator/>
 <CarouselLegado/>
 <Footer/>
 
