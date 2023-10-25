@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../styles/Contenido.css'
 
 const Contenido = () => {
