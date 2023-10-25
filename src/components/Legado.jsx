@@ -151,7 +151,7 @@ const Legado = () => {
       ];
     
       return (
-        <section className="leago-section" >
+        <section className="legado-section" >
           <Container>
           <h6> COLECCION LEGADO</h6> {/* Agregar el título aquí }
     

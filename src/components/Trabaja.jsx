@@ -6,7 +6,7 @@ const Trabaja = () => {
         <div >
 
             <h1 className='tittrabaja'>JOIN OUR TEAM!</h1> <br /> <br />
-            <p className='parrafo'>Desde hace 8 años tenemos como misión difundir nuestra marca con propuestas creativas, alcance global y fundamentalmente con un concepto de estilo de vida.
+            <p className='parrafo'>Desde hace 10 años tenemos como misión difundir nuestra marca con propuestas creativas, alcance global y fundamentalmente con un concepto de estilo de vida.
 
                 Nos caracterizamos por enfrentar desafíos en nuestro trabajo diario, promoviendo el desarrollo continuo como base para nuestra gestión.
 
