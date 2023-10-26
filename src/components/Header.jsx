@@ -4,7 +4,7 @@ import '../styles/Header.css'
 
 function Header(){
     return(
-        <div className="header-container">
+        <div className="header-container" id='inicio' >
             <Slider/>
             <div className="brand-logo">
                <a href="/"><img src={logo} alt="Ninas Noriega" /></a> 

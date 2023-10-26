@@ -1,0 +1,77 @@
+.formulario-indumentaria{
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    height: 415px;
+    margin: 0 auto;
+    background-color: rgb(212, 212, 212);
+    margin-top: 20px;
+}
+
+.titform{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.titform2{
+    color:black;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.Video{
+    width: 400px;
+    height: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-left: 950px;
+    margin-top: -270px;
+}
+
+.msjsuscripto{
+    color: black;
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: 50px;
+}
+
+.formulario-indumentaria__campo{
+    margin-bottom: 1rem;
+    margin-top: 25px;
+}
+
+.formulario-indumentaria label{
+    font-weight: bold;
+    color: black;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+.formulario-indumentaria input,
+.formulario-indumentaria textarea{
+
+    padding: 0.1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.formulario-indumentaria button{
+    padding: 0.5rem 1rem;
+    background-color: rgb(65, 64, 64);
+    color:  rgb(212, 212, 212);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.formulario-indumentaria button:hover{
+    background-color: rgb(42, 40, 38);
+}

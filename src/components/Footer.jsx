@@ -7,7 +7,7 @@ function Footer() {
         <footer className="footer">
             <div className="footer-section">
                 <a href="/Nosotros" className='link'> <h3> NOSOTROS</h3></a> <br /> <br />
-                <a href="#Inicio" className='link' > <p> Inicio</p> </a>
+                <a href="#inicio" className='link' > <p> Inicio</p> </a>
                 <a href="#shop" className='link'><p>Shop</p> </a>
                 <a href="/Trabaja" className='link'> <p>Trabaja con nosotros</p> </a>
             </div>
@@ -15,6 +15,8 @@ function Footer() {
             <div className="footer-section">
                 <h3>ATENCION AL CLIENTE</h3> <br /> <br />
                 <a href="/talles" className='link'>  <p>Tabla de Talles</p> </a>
+                <a href="/Envios" className='link'> <p>Formas de pago</p> </a>
+                <a href="/Envios" className='link'> <p>Envios y Seguimiento</p> </a>
             </div>
 
             <div className="footer-section">
