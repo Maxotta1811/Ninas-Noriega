@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import Carrusel1 from '../images/tienda/Legado/Adoracion3.jpg'
 import Carrusel2 from '../images/tienda/Legado/Solidea2.jpg'
 import Carrusel3 from '../images/tienda/Legado/Concepcion3.jpg'
-import Carrusel4 from '../images/tienda/Legado/Adoracion1.jpg'
+import Carrusel4 from '../images/tienda/Legado/Felisa3.jpg'
 import Carrusel5 from '../images/tienda/Legado/Concepcion4.jpg'
 import Carrusel6 from '../images/tienda/Legado/Adoracion4.jpg'
 import Carrusel7 from '../images/tienda/Legado/Felisa2.jpg'
@@ -24,6 +24,7 @@ function Legado() {
               alt="Primer slide"
             />
           </a>
+          
         </Carousel.Item>
         <Carousel.Item id="carousel-item-2">
           <a href="/Legado">

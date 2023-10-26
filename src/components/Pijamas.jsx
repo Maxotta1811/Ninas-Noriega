@@ -9,7 +9,7 @@ const  Pijamas = () => {
   const products = [
     {
       name: 'Adelma',
-      price: '$',
+      price: '$25.000',
       description: 'Musculosa con detalle de tul bordado y short con puntilla',
       talle: "Talle: S, M, L, XL, XXL",
       images: ['src/images/tienda/Pijamas/Adelma1.jpg',
