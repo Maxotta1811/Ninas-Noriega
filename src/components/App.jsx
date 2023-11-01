@@ -18,6 +18,8 @@ import Formulario from './Formulario'
 import Contenido from './Contenido'
 import Galeria2 from './Galeria2'
 import Envios from './Envios'
+import Mapa from './Mapa'
+
 
 
 
@@ -141,7 +143,6 @@ const App = () => {
 <>  
 <Header/>
 <Navbar/>
-<Separator/>
 <CarouselLegado/>
 <Footer/>
 
@@ -158,6 +159,19 @@ const App = () => {
 <Header/>
 <Navbar/>
 <Envios/>
+<Footer/>
+
+</>
+
+     }
+     />
+
+<Route path='/Mapa'
+     element={
+<>  
+<Header/>
+<Navbar/>
+<Mapa/>
 <Footer/>
 
 </>

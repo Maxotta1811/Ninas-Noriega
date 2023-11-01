@@ -1,32 +1,32 @@
-.legado-item {
-    padding-bottom: 50px;
-    margin-left: 5%;
-}
+.carrusel2 {
+    background-color:rgb(212, 212, 212);
+    max-width: 100%; 
+    max-height: 100vh; 
+    object-fit: cover; 
+    text-align: center;
+    margin-top: -90px;
+  } 
 
-.legado-item img{
-    width: 92%;
-    height: 500px;
-    margin: auto;
-    margin-top: 10%;
-    margin-left: 3%;
-    display: flex;
-}
-
-.legado-item h2{
-    font-size: 12px;
-    color: rgb(37, 36, 36);
-}
-
-h5{
-    font-size: 23px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
-}
-
-h6{
-    margin-top: 6%;
+  .separador {
+    margin: 9%;
+  }
+  
+  .coleccionlegadotit{
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    text-align: center;
-}
+    color: black;
+  }
 
+  .carousel-item {
+    margin: top 0;;
+    width: 100vw; /* Establece el ancho al 90% de la ventana (viewport width) */
+    height: 100vh; /* Establece la altura al 90% de la ventana (viewport height) */
+    object-fit: cover; /* Usa 'contain' para asegurarte de que la imagen se vea completa sin recortes */
+  }
+
+  .imgc {
+    width: 100vw; /* Establece el ancho al 90% de la ventana (viewport width) */
+    height: auto; /* Establece la altura al 90% de la ventana (viewport height) */
+    object-fit: cover; /* Usa 'contain' para asegurarte de que la imagen se vea completa sin recortes */
+  }

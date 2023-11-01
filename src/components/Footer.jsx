@@ -17,6 +17,7 @@ function Footer() {
                 <a href="/talles" className='link'>  <p>Tabla de Talles</p> </a>
                 <a href="/Envios" className='link'> <p>Formas de pago</p> </a>
                 <a href="/Envios" className='link'> <p>Envios y Seguimiento</p> </a>
+                <a href="/Mapa"  className='link' >  <p>Ubicacion</p> </a>
             </div>
 
             <div className="footer-section">

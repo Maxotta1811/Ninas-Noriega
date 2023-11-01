@@ -9,7 +9,9 @@
 
 .brand-logo img {
     max-width: 100%; /* Limita el ancho de la imagen al 100% del contenedor */
-    max-height: 220px; /* Ajusta la altura máxima según tus necesidades */
+    max-height: 230px; /* Ajusta la altura máxima según tus necesidades */
     display: block; /* Asegura que la imagen se comporte correctamente */
     margin: 0 auto; /* Centra horizontalmente la imagen dentro del contenedor */
   }
+
+  
