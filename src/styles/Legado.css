@@ -15,6 +15,7 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+<<<<<<< HEAD
     color: black;
   }
 
@@ -30,3 +31,7 @@
     height: auto; /* Establece la altura al 90% de la ventana (viewport height) */
     object-fit: cover; /* Usa 'contain' para asegurarte de que la imagen se vea completa sin recortes */
   }
+=======
+    text-align: center;
+}*/
+>>>>>>> 2c407aeb540a40266acddb030279be645c63d12d

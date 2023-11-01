@@ -8,6 +8,7 @@ import '../styles/Pijamas.css'
 const  Pijamas = () => {
   const products = [
     {
+<<<<<<< HEAD
       name: 'ANTONIA',
       price: '$26.990',
       description: 'Bralette de microtul con vuelo y short tiro alto en sedita',
@@ -18,6 +19,9 @@ const  Pijamas = () => {
     },
     {
       name: 'ADELMA',
+=======
+      name: 'Adelma',
+>>>>>>> 2c407aeb540a40266acddb030279be645c63d12d
       price: '$25.000',
       description: 'Musculosa con detalle de tul bordado y short con puntilla',
       talle: "Talle: S, M, L, XL, XXL",
