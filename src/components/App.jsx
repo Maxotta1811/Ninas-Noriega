@@ -19,6 +19,7 @@ import Contenido from './Contenido'
 import Galeria2 from './Galeria2'
 import Envios from './Envios'
 import Mapa from './Mapa'
+import Error from './Error'
 
 
 
@@ -28,7 +29,21 @@ const App = () => {
   return (
     <>
       <Router>
+     
         <Routes>
+
+        <Route path='/*'
+          
+          element={
+          <>
+      
+          <Error/>
+
+          </>
+
+          }
+                    
+          />
           <Route path='/'
           
           element={
