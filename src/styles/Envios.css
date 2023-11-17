@@ -1,0 +1,34 @@
+.titpago{
+
+    margin-left: 3%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titenvio{
+
+    margin-left: 3%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ppago{
+    margin-left: 3%;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.penvio{
+    margin-left: 3%;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.subtit{
+font-weight: bold;
+font-size: 15px;
+}

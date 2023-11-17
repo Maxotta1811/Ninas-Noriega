@@ -14,6 +14,13 @@ import Batas from './Batas'
 import Pijamas from './Pijamas'
 import Ajuares from './Ajuares'
 import  CarouselLegado from './Legado'
+import Formulario from './Formulario'
+import Contenido from './Contenido'
+import Galeria2 from './Galeria2'
+import Envios from './Envios'
+import Mapa from './Mapa'
+import Error from './Error'
+
 
 
 
@@ -22,7 +29,21 @@ const App = () => {
   return (
     <>
       <Router>
+     
         <Routes>
+
+        <Route path='/*'
+          
+          element={
+          <>
+      
+          <Error/>
+
+          </>
+
+          }
+                    
+          />
           <Route path='/'
           
           element={
@@ -33,6 +54,9 @@ const App = () => {
           <MyCarousel/>
           <Galeria/>
           <Nosotros/>
+          <Galeria2/>
+          <Formulario/>
+          <Contenido/>
           <Footer/>
 
           </>
@@ -135,6 +159,34 @@ const App = () => {
 <Header/>
 <Navbar/>
 <CarouselLegado/>
+<Footer/>
+
+</>
+
+     }
+     />
+
+
+     
+<Route path='/Envios'
+     element={
+<>  
+<Header/>
+<Navbar/>
+<Envios/>
+<Footer/>
+
+</>
+
+     }
+     />
+
+<Route path='/Mapa'
+     element={
+<>  
+<Header/>
+<Navbar/>
+<Mapa/>
 <Footer/>
 
 </>

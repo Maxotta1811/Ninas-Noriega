@@ -1,0 +1,23 @@
+.imgmapa {
+    width: 350px; /* Ancho deseado para el contenedor del mapa */
+    height: 350px; 
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-left: 38%;
+    margin-bottom: 5%;
+  }
+  
+
+  .titmapa{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-top: -27px;
+  }
+
+  .linkmapa{
+    text-decoration: none; 
+    color: inherit; /* Hereda el color del texto del elemento padre */
+}

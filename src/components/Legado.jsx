@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import Carrusel1 from '../images/tienda/Legado/Adoracion3.jpg'
 import Carrusel2 from '../images/tienda/Legado/Solidea2.jpg'
 import Carrusel3 from '../images/tienda/Legado/Concepcion3.jpg'
-import Carrusel4 from '../images/tienda/Legado/Adoracion1.jpg'
+import Carrusel4 from '../images/tienda/Legado/Felisa3.jpg'
 import Carrusel5 from '../images/tienda/Legado/Concepcion4.jpg'
 import Carrusel6 from '../images/tienda/Legado/Adoracion4.jpg'
 import Carrusel7 from '../images/tienda/Legado/Felisa2.jpg'
@@ -18,16 +18,17 @@ function Legado() {
       <Carousel>
         <Carousel.Item id="carousel-item-1">
           <a href="/Legado">
-            <img
+            <img className='imgc'
               id="imgcarousel-1"
               src={Carrusel1}
               alt="Primer slide"
             />
           </a>
+          
         </Carousel.Item>
         <Carousel.Item id="carousel-item-2">
           <a href="/Legado">
-            <img
+            <img  className='imgc'
               id="imgcarousel-2"
               src={Carrusel2}
               alt="Segundo slide"
@@ -36,7 +37,7 @@ function Legado() {
         </Carousel.Item>
         <Carousel.Item id="carousel-item-3">
           <a href="/Legado">
-            <img
+            <img className='imgc'
               id="imgcarousel-3"
               src={Carrusel3}
               alt="Tercer slide"
@@ -45,10 +46,10 @@ function Legado() {
         </Carousel.Item>
       </Carousel>
       <div className='separador'>
-
+        <h1 className='coleccionlegadotit' >COLECCION LEGADO 2023</h1>
       </div>
       {/* Segundo carousel */}
-      <Carousel>
+      <Carousel className='carrusel2' >
         <Carousel.Item id="carousel-item-4">
           <a href="/Legado">
             <img
@@ -151,7 +152,7 @@ const Legado = () => {
       ];
     
       return (
-        <section className="leago-section" >
+        <section className="legado-section" >
           <Container>
           <h6> COLECCION LEGADO</h6> {/* Agregar el título aquí }
     

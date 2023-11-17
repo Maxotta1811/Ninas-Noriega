@@ -15,11 +15,22 @@
   }
   
   .product-item .slick-slide img {
-    max-width: 100%;  
+    max-width: 95;  
     max-height: 400px; /* Altura de las imágenes en el carrusel */
     margin: 0 auto; /* Centra las imágenes horizontalmente */
     display: block; /* Asegura que las imágenes estén alineadas en el centro */
   }
+
+  h5{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.h2{
+  font-size: 12px;
+  color: rgb(37, 36, 36);
+}
 
 /*.product-item {
     padding-bottom: 50px;
@@ -34,14 +45,5 @@
     margin-left: 3%;
 }
 
-.product-item h2{
-    font-size: 12px;
-    color: rgb(37, 36, 36);
-}
-
-h5{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
-}*/
+*/
 
